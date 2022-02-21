@@ -11,7 +11,7 @@ public class LogTestController {
     @RequestMapping("/log-test")
     public String logTest() {
         String name = "Spring";
-        
+
         log.trace("trace log = {}", name);
         log.debug("debug log = {}", name);
         log.info("info log = {}", name);
